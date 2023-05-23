@@ -9,22 +9,35 @@ In this project, my goal was to analyze a health insurance dataset to understand
 The dataset obtained from Kaggle consists of 1338 records, with each record representing an individual policyholder. It includes seven features:
 
 Age: The age of the primary beneficiary.
-Sex: The policyholder's gender, represented as male or female.
-BMI: The body mass index, providing an understanding of body weights that are relatively high or low relative to height.
-Children: The number of dependents covered by the insurance plan.
-Smoker: Whether the policyholder is a smoker or not.
-Region: The beneficiary's residential area in the US, divided into four geographic regions - northeast, southeast, southwest, or northwest.
-Charges: Individual medical costs billed by health insurance.
-Tools and Packages:
 
-# To accomplish this project, I utilized several tools and libraries:
+Sex: The policyholder's gender, represented as male or female.
+
+BMI: The body mass index, providing an understanding of body weights that are relatively high or low relative to height.
+
+Children: The number of dependents covered by the insurance plan.
+
+Smoker: Whether the policyholder is a smoker or not.
+
+Region: The beneficiary's residential area in the US, divided into four geographic regions - northeast, southeast, southwest, or northwest.
+
+Charges: Individual medical costs billed by health insurance.
+
+# Tools and Packages:
+
+To accomplish this project, I utilized several tools and libraries:
 
 Python: The primary programming language for this project.
+
 Pandas and Numpy: For data manipulation and analysis.
+
 SQLite: For SQL-based data querying.
+
 Statsmodels: For building a statistical model to analyze relationships between variables.
+
 Matplotlib and Seaborn: For data visualization in Python.
+
 Scikit-learn: For preprocessing and machine learning.
+
 Power BI: For advanced data visualization and analysis.
 
 # Methodology:
@@ -42,9 +55,13 @@ Next, I moved onto visualizing the results using Python libraries initially and 
 The SQL queries returned insightful information regarding the average charges based on various factors. These findings were further substantiated by the results from the regression analysis:
 
 Age: An increase of $257 in charges can be expected for each additional year of age.
+
 BMI: Charges increase by approximately $333 for each unit increase in BMI.
+
 Smoker: Smokers are charged an extra $23,820 on average compared to non-smokers.
+
 Children: Each additional child leads to an expected increase of $479 in charges.
+
 Region: The impact of region on insurance charges, while present, is relatively small.
 
 # Conclusion:
