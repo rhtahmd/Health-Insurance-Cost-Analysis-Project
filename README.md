@@ -6,9 +6,24 @@
 
 In this project, my goal was to analyze a health insurance dataset to understand the factors that influence the charges imposed on individuals. The dataset, sourced from Kaggle, consists of various attributes such as age, gender, body mass index (BMI), number of children, smoking habits, and geographical region.
 
+# Questions
+
+What is the relationship between age and insurance charges? The data suggests a strong positive correlation between age and insurance charges. For each additional year of age, an increase of approximately $257 in charges can be expected.
+
+Does BMI influence insurance charges? Yes, BMI does influence the insurance charges. The data shows that charges increase by approximately $333 for each unit increase in BMI.
+
+How does smoking habit affect insurance charges? Smoking habits significantly influence the charges, with smokers being charged an extra $23,820 on average compared to non-smokers.
+
+Does the number of children a person has affect insurance charges? The analysis shows that the number of children a person has does have an impact on insurance charges. Each additional child leads to an expected increase of $479 in charges.
+
+Does region affect insurance charges? While the region does have some impact on the insurance charges, this impact is relatively small compared to other factors.
+
+Does gender affect insurance charges? Interestingly, according to the model, gender does not have a significant impact on insurance charges.
+
+
 # Dataset Description:
 
-The dataset obtained from Kaggle consists of 1338 records, with each record representing an individual policyholder. It includes seven features:
+The dataset obtained from Kaggle (https://www.kaggle.com/code/roscopikotrain/medical-insurance-eda-statistics/input) consists of 1338 records, with each record representing an individual policyholder. It includes seven features:
 
 Age: The age of the primary beneficiary.
 
