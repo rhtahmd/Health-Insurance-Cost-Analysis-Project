@@ -1,3 +1,5 @@
+![Dashboard](https://github.com/rhtahmd/Health-Insurance-Cost-Analysis-Project/assets/134383166/0c9f5857-53ff-4897-8fbd-27b433b7badd)
+
 # Health-Insurance-Cost-Analysis-Project
 
 # Introduction:
