@@ -83,4 +83,4 @@ Region: The impact of region on insurance charges, while present, is relatively 
 
 # Conclusion:
 
-This analysis has allowed me to determine that age, BMI, smoking habits, and the number of children significantly influence the health insurance charges. Interestingly, the model suggests that gender does not have a significant impact on
+This analysis has allowed me to determine that age, BMI, smoking habits, and the number of children significantly influence the health insurance charges. Interestingly, the model suggests that gender does not have a significant impact on medical charges.
